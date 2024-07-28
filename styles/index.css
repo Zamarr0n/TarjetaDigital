@@ -27,12 +27,12 @@ fieldset{
     position: absolute;
 }
 .image-container{
-    padding: 2rem 0 ;
+    padding: 5% 0 ;
     display: flex;
     justify-content: center;
 }
 .seller{
-    margin-top: 7rem;
+    margin-top: 10%;
     z-index: 100;
 }
 .maps-container{
