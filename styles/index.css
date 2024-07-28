@@ -15,7 +15,6 @@ fieldset{
 .descripcion{
     max-width: 50%;
     margin: 0 auto;
-    text-align: center;
     padding-bottom: 2rem;
 }
 .seller{
@@ -62,7 +61,18 @@ fieldset{
     padding: 5px;
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.img-services{
+    max-width: 60%;
+    margin: 0 auto;
+}
 
+.justify-text{
+    text-align: justify;
+}
 @media only screen and (max-width:900px){
     form{
         width: 70%;
