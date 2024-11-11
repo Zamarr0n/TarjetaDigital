@@ -1,5 +1,6 @@
-main{
-    position: absolute;
+body{
+    margin: 0;
+    padding: 0;
 }
 form{
     width: 30%;
@@ -17,28 +18,40 @@ a{
     text-align: center;
 }
 .descripcion{
-    max-width: 50%;
+    max-width: 40%;
     margin: 0 auto;
     padding-bottom: 2rem;
 }
-.seller{
+/* .seller{
     border-radius: 50%;
     width: 20%;
-}
-.image-background{
+} */
+/* .image-background{
     z-index: 1;
     width: 50%;
     position: absolute;
-}
-.image-container{
+} */
+/* .image-container{
     padding: 5% 0 ;
     display: flex;
     justify-content: center;
-}
-.seller{
+} */
+.image-container{
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: center;
+} 
+/* .seller{
     margin-top: 10%;
     z-index: 100;
+} */
+.seller{
+    margin: 0 auto;
 }
+.img-seller{
+    width: 300px;
+}
+
 .maps-container{
     display: flex;
     justify-content: center;
@@ -97,6 +110,60 @@ a{
     padding-bottom: 5rem;
 }
 @media only screen and (max-width:900px){
+    form{
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    fieldset{
+        text-align: center;
+    }
+    .Whatsapp-link{
+        display: flex;
+        position: fixed;
+        right: 40px;
+        top: 40rem;
+    }
+    .form-cellphone{
+        display: flex;
+        justify-content: center;
+    }
+    .div-contact{
+        max-width: 50%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .descripcion{
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+        padding-bottom: 2rem;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .img-services{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .maps-container{
+        display: flex;
+        justify-content: center;
+        max-width: 70%;
+    }
+    .maps-cellphone{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width:600px){
     form{
         width: 70%;
         margin: 0 auto;
