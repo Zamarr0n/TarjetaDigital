@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
     <script src="https://kit.fontawesome.com/24602a443b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Armando Ríos</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
     <div class="contact-container">
         <div class="email">
             <i class="fa-brands fa-square-facebook fa-5x"></i>
-            <p> Facebook</p>
+            <p> Armando Ríos</p>
         </div>
         <!-- phone emoji -->
         <div class="telefono">
@@ -43,11 +44,27 @@
 
         <div class="email">
             <i class="fa-brands fa-square-x-twitter fa-5x"></i>
-            <p>twitter</p>
+            <p>Armando Ríos</p>
         </div>
     </div>
     </div>
 
+        <h2 class="text-center">Donde nos ubicados:</h2>
+    <div class="maps-container maps-cellphone padding-bottom">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28799.566064630228!2d-103.45901466838075!3d25.5401836594414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdbd813dd7e35%3A0x5677464a7616ed0b!2sISAN%20Instituto%20Superior%20de%20Administraci%C3%B3n%20y%20Negocios!5e0!3m2!1sen!2smx!4v1731294444419!5m2!1sen!2smx" 
+    width="500" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+<div class="Whatsapp-link">
+    <div id="whatsapp" class="whatsapp-image">
+    <img class="whatsapp-image" src="sources/whatsapp-fill.png" alt=""> Contactame
+    </div>
+</div>
+
+<!-- 
         <h2 class="text-center">Nuestros servicios:</h2>
     <div>
         <h2 class="text-center">Monitoreo:</h2>
@@ -87,23 +104,26 @@
                 Aut, repellendus. Amet harum magnam maxime, necessitatibus aut corrupti obcaecati suscipit? Quidem labore non fugiat temporibus sequi ipsum dolorum pariatur dolorem eos mollitia enim, molestiae quisquam itaque beatae. Fugiat, praesentium?
             </p>
         </div>
-    </div>  
+    </div>  -->
+    
 
     <h2 class="text-center">Contactanos para recibir informes: </h2>
     <div class="form-cellphone">
     <form>
         <fieldset>
-            <label for="Nombre">Nombre Completo:</label><br>
-            <input type="text" name="nombre" id="Nombre"><br><br>
-            <label for="tel"> telefono:</label><br>
-            <input type="text" name="telefono" id="tel"><br><br>
-            <label for="texto"> Escribe cualquier duda que tengas: </label><br>
-            <textarea name="" id="texto" rows="5" cols="33">
+            <label for="Nombre" class="form-label">Nombre Completo:</label><br>
+            <input class="form-text" type="text" name="nombre" id="Nombre"><br><br>
+            <label for="email" class="form-label"> email:</label><br>
+            <input class="form-text" type="text" name="email" id="email"><br><br>
+            <label for="texto" class="form-label"> Escribe cualquier duda que tengas: </label><br>
+            <textarea class="form-text" name="" id="texto" rows="5" cols="33">
             </textarea> <br><br>
-            <input type="button" value="enviar" class="btn">
+            <input type="button" value="enviar" class=" btn btn-danger">
         </fieldset>
-    </form>
+    </form> 
     </div>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
 </body>
 </html>
