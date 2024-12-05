@@ -112,6 +112,9 @@ a{
     display: inline;
     color: green;
 }
+.form-text-input{
+    width: 60%;
+}
 .justify-text{
     text-align: justify;
 }
