@@ -6,12 +6,29 @@ header{
     background-color:#0455ac; 
     padding: 3rem;
 }
+#sm-header{
+    background-color:#000000; 
+    padding: 3rem;
+}
+.sm-logo{
+    width:6rem;
+    height: auto;
+    margin: 0 10rem 0 10rem;
+}
 .logo-div{
     position: fixed;
     right: 50%;
     transform: translateX(50%);
     bottom: 85%;
     background-color: #0455ac;
+    padding-bottom: 2%;
+}
+.logo-div-sm{
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 85%;
+    background-color: #000000;
     padding-bottom: 2%;
 }
 form{
@@ -44,6 +61,11 @@ a{
     margin: 0 auto;
 }
 .image-container{
+    padding-top: 5rem ;
+    display: flex;
+    justify-content: center;
+} 
+.image-container-sm{
     padding-top: 5rem ;
     display: flex;
     justify-content: center;
@@ -126,6 +148,10 @@ a{
         width: 70%;
         margin: 0 auto;
         padding-bottom: 2rem;
+    }
+    .sm-logo{
+        width:7rem;
+        height: auto;
     }
     fieldset{
         text-align: center;
