@@ -131,7 +131,7 @@ a{
     border-radius: 20px;
     border: 2px solid green;
     cursor: pointer;
-    
+    backdrop-filter: blur(100px);
 }
 .whatsapp-image{
     display: inline;
