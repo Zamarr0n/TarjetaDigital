@@ -207,7 +207,8 @@ a{
 @media only screen and (max-width:600px){
     form{
         width: 50%;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         padding-bottom: 2rem;
     }
     fieldset{
