@@ -36,7 +36,7 @@ form{
     margin: 0 auto;
     padding-bottom: 2rem;
 }
-fieldset{
+.form-field{
     text-align: center;
 }
 a{
@@ -156,8 +156,9 @@ a{
         width:7rem;
         height: auto;
     }
-    fieldset{
+    .form-field{
         text-align: center;
+        
     }
     .Whatsapp-link{
         display: flex;
@@ -211,8 +212,12 @@ a{
         justify-content: center;
         padding-bottom: 2rem;
     }
-    fieldset{
+    .form-field{
         text-align: center;
+    }
+    .form-subfield{
+        justify-content: center;
+        align-items: center;
     }
     .Whatsapp-link{
         display: flex;
