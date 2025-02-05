@@ -116,8 +116,8 @@ a{
     margin: 0 auto;
 }
 .div-blur{
-    backdrop-filter: blur(10px);
-    z-index: -1;
+    
+    
 }
 .Whatsapp-link{
     display: flex;
@@ -131,8 +131,7 @@ a{
     border-radius: 20px;
     border: 2px solid green;
     cursor: pointer;
-    /* background-color: green; */
-    background: rgba(255, 255, 255, 0.2);
+    
 }
 .whatsapp-image{
     display: inline;
@@ -207,7 +206,7 @@ a{
 
 @media only screen and (max-width:600px){
     form{
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
         padding-bottom: 2rem;
     }
