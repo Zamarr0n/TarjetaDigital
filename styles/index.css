@@ -128,7 +128,8 @@ a{
     border: 2px solid green;
     cursor: pointer;
     /* background-color: green; */
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) !important;
+    z-index: 999;
 }
 .whatsapp-image{
     display: inline;
