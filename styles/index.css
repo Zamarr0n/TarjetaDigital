@@ -129,6 +129,7 @@ a{
     cursor: pointer;
     /* background-color: green; */
     backdrop-filter: blur(10px) !important;
+    background: rgba(255, 255, 255, 0.2);
     z-index: 999;
 }
 .whatsapp-image{
