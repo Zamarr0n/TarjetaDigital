@@ -115,6 +115,10 @@ a{
     max-width: 60%;
     margin: 0 auto;
 }
+.div-blur{
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
 .Whatsapp-link{
     display: flex;
     position: fixed;
@@ -128,9 +132,7 @@ a{
     border: 2px solid green;
     cursor: pointer;
     /* background-color: green; */
-    backdrop-filter: blur(10px) !important;
     background: rgba(255, 255, 255, 0.2);
-    z-index: 999;
 }
 .whatsapp-image{
     display: inline;
