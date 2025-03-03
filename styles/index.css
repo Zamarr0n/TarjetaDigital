@@ -3,21 +3,46 @@ body{
     padding: 0;
 }
 header{
-    background-color:#0455ac; 
+    background-color:#4C585B; 
     padding: 3rem;
+    z-index: 100;
 }
 #sm-header{
     background-color:#000000; 
     padding: 3rem;
+}
+.form-section{
+    margin: 2.5rem;
+}
+.icon-whatsapp{
+    display: flex;
+    justify-content: center;
+}
+.link {
+    cursor: pointer;
 }
 .flex-section-div{
     max-width: 50%;
     margin: 0 auto;
 }
 .flex-box{
+    padding-top: .5rem;
+    padding-bottom: 0;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
+    color: #146C94;
+    margin-bottom: 1rem;
+}
+.space-section{
+    padding: 2.5rem;
+}
+.Servicios-div{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 .sm-logo{
     width:6rem;
@@ -26,12 +51,15 @@ header{
 }
 .logo-div{
     position: fixed;
-    margin-top: 2.5rem;
+    /* margin-top: 1.5rem; */
     right: 50%;
     transform: translateX(50%);
     bottom: 85%;
-    background-color: #0455ac;
+    background-color: #4C585B;
     padding-bottom: 2%;
+}
+.icon{
+    color: #0455ac;
 }
 .logo-div-sm{
     position: fixed;
@@ -40,6 +68,21 @@ header{
     bottom: 85%;
     background-color: #000000;
     padding-bottom: 2%;
+}
+.button-styling{
+    background-color: #146C94;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+.button-styling:hover{
+    color: #146C94;
+    background-color: white;
+    border: 2px solid #146C94;
+}
+.list-group,.list-group-item , .list-group-horizontal-sm{
+    z-index: 1;
 }
 form{
     width: 30%;
@@ -71,12 +114,12 @@ a{
     margin: 0 auto;
 }
 .image-container{
-    padding-top: 5rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
 } 
 .image-container-sm{
-    padding-top: 5rem ;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
 } 
@@ -125,36 +168,21 @@ a{
     max-width: 60%;
     margin: 0 auto;
 }
-.div-blur{
-    
-    
-}
-.Whatsapp-link{
-    display: flex;
-    position: fixed;
-    right: 110px;
-    top: 40rem;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 3px;
-    padding-right: 10px;
-    border-radius: 20px;
-    border: 2px solid green;
-    cursor: pointer;
-    backdrop-filter: blur(100px);
-}
-.whatsapp-image{
-    display: inline;
-    color: green;
-}
+
 .form-text-text{
     width: 260px;
 }
 .justify-text{
     text-align: justify;
 }
-.padding-bottom{
-    padding-bottom: 5rem;
+
+.div-button{
+    display: flex;
+    justify-content: center;
+    padding: .5rem 0;
+}
+.fa-circle-check{
+    color: green;
 }
 @media only screen and (max-width:900px){
     form{
@@ -212,6 +240,16 @@ a{
     .maps-cellphone{
         margin-left: auto;
         margin-right: auto;
+    }
+    .Servicios-div{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .space_list {
+        padding: .2rem;
     }
 }
 
@@ -271,5 +309,15 @@ a{
     .maps-cellphone{
         margin-left: auto;
         margin-right: auto;
+    }
+    .Servicios-div{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .space_list {
+        padding: .2rem;
     }
 }
