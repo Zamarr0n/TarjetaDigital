@@ -10,6 +10,15 @@ header{
     background-color:#000000; 
     padding: 3rem;
 }
+.flex-section-div{
+    max-width: 50%;
+    margin: 0 auto;
+}
+.flex-box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
 .sm-logo{
     width:6rem;
     height: auto;
@@ -17,6 +26,7 @@ header{
 }
 .logo-div{
     position: fixed;
+    margin-top: 2.5rem;
     right: 50%;
     transform: translateX(50%);
     bottom: 85%;
@@ -61,7 +71,7 @@ a{
     margin: 0 auto;
 }
 .image-container{
-    padding-top: 5rem ;
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
 } 
